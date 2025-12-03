@@ -1,7 +1,10 @@
 
-# 📘 JavaScript Variables and Data Types — Complete Guide
+# 📘 JavaScript Variables and Strings 
 
 ---
+### JavaScript Variables <img src="https://www.freecodecamp.org/learn/javascript-v9/review-javascript-variables-and-data-types/review-javascript-variables-and-data-types">
+
+### Strings  <img src="https://www.freecodecamp.org/learn/javascript-v9/review-javascript-strings/review-javascript-strings">
 
 ## 📑 Table of Contents
 - [Introduction](#introduction)
@@ -23,6 +26,17 @@
 - [Comments](#comments-in-javascript)
 - [Dynamic Typing](#javascript-as-a-dynamically-typed-language)
 - [typeof Operator](#using-the-typeof-operator)
+
+- [Table of Contents of Strings](#Table-of-Contents-of-Strings)
+- 
+1. String Basics  
+2. Accessing Characters  
+3. Newline Character `\n`  
+4. Escaping Strings  
+5. Template Literals & String Interpolation  
+6. ASCII, `charCodeAt()` & `fromCharCode()`  
+7. Common String Methods  
+8. Examples  
 
 ---
 
@@ -277,7 +291,7 @@ typeof null; // "object"
 
 ---
 
-## 📌 Table of Contents
+# Table of Contents
 1. String Basics  
 2. Accessing Characters  
 3. Newline Character `\n`  
