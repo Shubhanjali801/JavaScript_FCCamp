@@ -271,3 +271,181 @@ typeof null; // "object"
 ```
 
 ---
+
+
+## **JavaScript Strings**
+
+---
+
+## 📌 Table of Contents
+1. String Basics  
+2. Accessing Characters  
+3. Newline Character `\n`  
+4. Escaping Strings  
+5. Template Literals & String Interpolation  
+6. ASCII, `charCodeAt()` & `fromCharCode()`  
+7. Common String Methods  
+8. Examples  
+
+---
+
+## 1. 🔹 String Basics
+
+### **Definition**
+A **string** is a sequence of characters wrapped in:
+- single quotes `' '`
+- double quotes `" "`
+- backticks `` ` ` ``
+
+Strings are:
+- **primitive data types**
+- **immutable**, meaning they cannot be changed after creation.
+
+---
+
+## 2. 🔹 Accessing Characters from a String
+
+Use **bracket notation** to access characters by their **zero-based index**.
+
+```javascript
+const developer = "Jessica";
+developer[0]; // J
+```
+
+---
+
+## 3. 🔹 Newline Character `\n`
+
+Creates a line break.
+
+```javascript
+const poem = "Roses are red,\nViolets are blue,\nJavaScript is fun,\nAnd so are you.";
+console.log(poem);
+```
+
+---
+
+## 4. 🔹 Escaping Strings
+
+Use backslashes `\` to escape quotes.
+
+```javascript
+const statement = "She said, \"Hello!\"";
+console.log(statement); 
+// She said, "Hello!"
+```
+
+---
+
+## 5. 🔹 Template Literals & String Interpolation
+
+Template literals use **backticks** and allow embedding variables with `${ }`.
+
+```javascript
+const name = "Jessica";
+const greeting = `Hello, ${name}!`; 
+// "Hello, Jessica!"
+```
+
+---
+
+## 6. 🔹 ASCII, `charCodeAt()` and `fromCharCode()`
+
+### **ASCII**
+A character encoding standard mapping characters to numbers.
+
+### `charCodeAt()`
+Returns ASCII code of character at a specific index.
+
+```javascript
+const letter = "A";
+console.log(letter.charCodeAt(0));  // 65
+```
+
+### `fromCharCode()`
+Converts ASCII code to its corresponding character.
+
+```javascript
+const char = String.fromCharCode(65);
+console.log(char);  // A
+```
+
+---
+
+## 7. 🔹 Common String Methods
+
+### **indexOf()**
+Searches substring; returns index or -1.
+
+```javascript
+const text = "The quick brown fox jumps over the lazy dog.";
+console.log(text.indexOf("fox")); // 16
+console.log(text.indexOf("cat")); // -1
+```
+
+### **includes()**
+Checks if substring exists.
+
+```javascript
+console.log(text.includes("fox")); // true
+console.log(text.includes("cat")); // false
+```
+
+### **slice()**
+Extracts a portion of a string.
+
+```javascript
+const word = "freeCodeCamp";
+console.log(word.slice(0, 4));  // "free"
+console.log(word.slice(4, 8));  // "Code"
+console.log(word.slice(8));     // "Camp"
+```
+
+### **toUpperCase()**
+
+```javascript
+"Hello, world!".toUpperCase(); // "HELLO, WORLD!"
+```
+
+### **toLowerCase()**
+
+```javascript
+"HELLO, WORLD!".toLowerCase(); // "hello, world!"
+```
+
+### **replace()**
+
+```javascript
+"I like cats".replace("cats", "dogs"); 
+// "I like dogs"
+```
+
+### **replaceAll()**
+
+```javascript
+"I love cats and cats are fun".replaceAll("cats", "dogs");
+```
+
+### **repeat()**
+
+```javascript
+"Hello".repeat(3); // "HelloHelloHello"
+```
+
+### **trim(), trimStart(), trimEnd()**
+
+```javascript
+"  Hello, world!  ".trim();       // "Hello, world!"
+"  Hello, world!  ".trimStart();  // "Hello, world!  "
+"  Hello, world!  ".trimEnd();    // "  Hello, world!"
+```
+
+### **prompt()** *(browser only)*
+
+```javascript
+const answer = window.prompt("What's your favorite animal?");
+```
+
+---
+
+
