@@ -2,9 +2,9 @@
 # 📘 JavaScript Variables and Strings 
 
 ---
-### JavaScript Variables <img src="https://www.freecodecamp.org/learn/javascript-v9/review-javascript-variables-and-data-types/review-javascript-variables-and-data-types">
+### <a src="https://www.freecodecamp.org/learn/javascript-v9/review-javascript-variables-and-data-types/review-javascript-variables-and-data-types">JavaScript Variables</a>
 
-### Strings  <img src="https://www.freecodecamp.org/learn/javascript-v9/review-javascript-strings/review-javascript-strings">
+### <a src="https://www.freecodecamp.org/learn/javascript-v9/review-javascript-strings/review-javascript-strings">Strings</a>
 
 ## 📑 Table of Contents
 - [Introduction](#introduction)
