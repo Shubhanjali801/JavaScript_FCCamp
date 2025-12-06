@@ -1,6 +1,6 @@
 function confirmEnding(str, target) {
   // Extract the ending from the string using substring
-  let ending = str.slice(-target.length);
+  let ending = str.slice(- target.length);
 
   // Compare extracted ending with target
   return ending === target;
