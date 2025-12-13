@@ -10,3 +10,4 @@ function findLongestWordLength(str) {
 
   return maxCount;
 }
+// https://www.freecodecamp.org/learn/javascript-v9/lab-longest-word-in-a-string/build-a-longest-word-finder-app

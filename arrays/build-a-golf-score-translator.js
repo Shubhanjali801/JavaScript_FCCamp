@@ -11,3 +11,5 @@ let golfScore = (par, Stroke) => {
    else if(Stroke >= par + 3) return names[6];
 }
 console.log(golfScore(4, 7));
+
+// https://www.freecodecamp.org/learn/javascript-v9/lab-golf-score-translator/build-a-golf-score-translator

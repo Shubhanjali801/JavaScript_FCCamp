@@ -20,3 +20,8 @@ str.replace()
 str.replaceAll()
 str.repeat()
 indexOf()  -> returns char of specified index
+
+charCodeAt()
+fromCharCode()
+
+prompt()

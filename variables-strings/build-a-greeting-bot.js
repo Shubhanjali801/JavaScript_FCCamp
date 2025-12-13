@@ -28,3 +28,5 @@ const favoriteSubject = "Computer Science";
 const favoriteSubjectSentence = "My favorite subject is " + favoriteSubject + ".";
 console.log(favoriteSubjectSentence);
 console.log("Well, it was nice to talk to you. Have a nice day!");
+
+//https://www.freecodecamp.org/learn/javascript-v9/workshop-greeting-bot/step-15#workshop-greeting-bot

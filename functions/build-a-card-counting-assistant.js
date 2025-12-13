@@ -24,3 +24,5 @@ const cc = (card) => {
         return `${count}` + " Hold";
     }
 }
+
+// https://www.freecodecamp.org/learn/javascript-v9/lab-counting-cards/lab-counting-cards

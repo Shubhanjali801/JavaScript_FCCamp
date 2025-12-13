@@ -30,3 +30,5 @@ console.log(condoLoanMsg);
 
 console.log(carLoanMsg);
 console.log(noLoanMsg);
+
+// https://www.freecodecamp.org/learn/javascript-v9/workshop-loan-qualification-checker/step-1

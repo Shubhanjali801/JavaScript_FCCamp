@@ -9,3 +9,5 @@ function fearNotLetter(str) {
   }
   return undefined;
 }
+
+// https://www.freecodecamp.org/learn/javascript-v9/lab-missing-letter-detector/build-a-missing-letter-detector

@@ -6,3 +6,5 @@ function chunkArrayInGroups(arr, size) {
   }
   return newArr;
 }
+
+// https://www.freecodecamp.org/learn/javascript-v9/lab-chunky-monkey/implement-the-chunky-monkey-algorithm

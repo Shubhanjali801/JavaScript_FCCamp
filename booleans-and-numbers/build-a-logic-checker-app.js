@@ -16,3 +16,4 @@ if (timmyAge >= 16) {
 } else {
   console.log("Timmy is not old enough to drive.");
 }
+// https://www.freecodecamp.org/learn/javascript-v9/workshop-logic-checker-app/step-1

@@ -11,3 +11,5 @@ function repeatStringNumTimes(str, num) {
 
   return result;
 }
+
+// https://www.freecodecamp.org/learn/javascript-v9/lab-repeat-a-string/build-a-string-repeating-function

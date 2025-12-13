@@ -55,3 +55,5 @@ const getResults = (question, randomA) => {
 console.log(randomQuestion);
 console.log(randomAnswer);
 console.log(getResults(randomQuestion, randomAnswer));
+
+// https://www.freecodecamp.org/learn/javascript-v9/lab-quiz-game/lab-quiz-game

@@ -10,3 +10,4 @@ function factorialCalculator(num) {
 let factorial = factorialCalculator(num);
 let resultMsg = `Factorial of ${num} is ${factorial}`;
 console.log(resultMsg);
+// https://www.freecodecamp.org/learn/javascript-v9/lab-factorial-calculator/build-a-factorial-calculator

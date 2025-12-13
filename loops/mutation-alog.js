@@ -12,3 +12,4 @@ function mutation(arr) {
 
 
 console.log(mutation(["hello", "hey"]));
+// https://www.freecodecamp.org/learn/javascript-v9/lab-mutations/implement-the-mutations-algorithm

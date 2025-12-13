@@ -13,4 +13,14 @@ Math.max()
 Math.min()
 
 Math.sqrt()
-Math.cqbe()
+Math.cbrt()
+
+Math.trunc()
+Math.abs()
+Math.pow()
+
+isNaN()
+parseFloat()
+parseInt()
+
+toFixed()

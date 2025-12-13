@@ -11,3 +11,5 @@ function truncateString(str, num) {
 // Example test
 console.log(truncateString("Hello World", 5));  // Output: Hello...
 console.log(truncateString("Code", 10));        // Output: Code
+
+// https://www.freecodecamp.org/learn/javascript-v9/lab-truncate-string/truncate-a-string

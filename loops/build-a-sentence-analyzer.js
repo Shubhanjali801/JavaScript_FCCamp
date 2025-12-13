@@ -53,3 +53,5 @@ function getWordCount(sentence) {
 }
 let wordCount = getWordCount(`I love freeCodeCamp`);
 console.log(`Word Count: ${wordCount}`);
+
+// https://www.freecodecamp.org/learn/javascript-v9/workshop-sentence-analyzer/step-1

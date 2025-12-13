@@ -23,3 +23,5 @@ console.log(repeatedLove);
 
 const newSentence = `I ${repeatedLove} learning.`;
 console.log(newSentence);
+
+// https://www.freecodecamp.org/learn/javascript-v9/workshop-string-transformer/step-11

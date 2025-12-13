@@ -73,3 +73,5 @@ recipe3.totalIngredients = getTotalIngredients(recipe3.ingredients)
 recipe3.difficultyLevel = getDifficultyLevel(recipe3.cookingTime)
 
 console.log(recipes);
+
+// https://www.freecodecamp.org/learn/javascript-v9/workshop-recipe-tracker/step-1
