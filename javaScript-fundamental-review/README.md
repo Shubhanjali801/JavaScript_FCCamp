@@ -1,11 +1,2 @@
-## str.map() // it visit every word in the string
+## [Review](https://www.freecodecamp.org/learn/javascript-v9/review-javascript-fundamentals/review-javascript-fundamentals)
 
-## Funcy value in javascript :
-undefined
-NaN
-""
-false
-null
-0
-
-## arr.filter(Boolean)
