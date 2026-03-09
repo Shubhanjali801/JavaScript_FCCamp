@@ -13,6 +13,7 @@ const instrumentsArr = [
 
 const selectContainer = document.querySelector("select");
 const productsContainer = document.querySelector(".products-container");
+
 function instrumentCards(instrumentCategory) {
   const instruments =
     instrumentCategory === "all"
